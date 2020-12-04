@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+html, body {
+    width: 100%;
+    margin: 0;
+}
+
+#ColorArea {
+    background-color: rgb(221,14,75);
+    width: 100%;
+    height: 43vh;
+}
+
+#MainText {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: white;
+    font-size: 15vh;
+    font-family: 'Alata', sans-serif;
+}
+
+#LinkArea {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.BoothRed {
+    background-color: #fc4d50;
+}
+
+.TwitterBlue {
+    background-color: #1DA1F2;
+}
+
+.AdultPink {
+    background-color: #ff64b1;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.center {
+  text-align: center;
+}
+
+#footer {
+    border-top: 1px solid black;
+    position: absolute;
+    top: 95vh;
+    width: 95%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+@media screen and (max-width: 959px) {
+    #ColorArea {
+        height: 60vh;
+    }
+
+    #MainText { 
+     font-size: 16vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #ColorArea {
+        height: 50vh;
+    }
+
+    #MainText { 
+     font-size: 20vw;
+    }
+    
+    #LinkArea {
+        top: 55%;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    #ColorArea {
+        height: 40vh;
+    }
+
+    #MainText { 
+     font-size: 20vw;
+    }
+    
+    #LinkArea {
+        top: 55%;
+    }
+}
+
+
+
