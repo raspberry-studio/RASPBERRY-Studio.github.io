@@ -42,6 +42,10 @@ html, body {
     background-color: #ff64b1;
 }
 
+.FanboxYellow {
+    background-color: #cfc247;
+}
+
 .button {
     border: none;
     color: white;
